@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+	text-align: left;
+}
+
+body h1,h2{
+
+	color: yellow;
+}
+
+.form-check-label {
+	color: red;
+}
+.Rogue{
+	margin-left: 1000px;
+	height: 50px;
+	width: 50px;
+}
+
+.btn-btn1{
+	background-color: yellow;
+	width: 500px;
+	
+}
+
+.bbtn{
+	margin-left: 600px;
+}
+
+ 
+
+.btn-btn2{
+
+	: 100px;
+	background-color: red;
+	height:40px;
+	
+}
+
+.col-4{
+	top: 100px;
+	font: 100px;
+}
+
+.container{
+	padding-left: 200px;
+	margin-right: 100px;
+}
+
+.col-4 h1{
+	font-size: 50px;
+}
+
+.xmen {
+	height: ;
+}
+.row {
+	bottom: 100px;
+}
+
+

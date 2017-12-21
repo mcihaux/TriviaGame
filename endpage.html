@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Totally Trivial Trivia</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<div class="row">
+    <div class="col-12">
+      
+  <div class="xmen"><image src ="title.gif" height=500px/></div>
+</div>
+</div>
+</div>
+
+	<div class="row">
+	<div class="col-12">
+		
+		<h2><span id="score">0</span></h2>
+		
+
+	</div>
+</div>
+<audio src="Wolverine.mp3" autoplay="autoplay"></audio>
+<audio src="End.mp3" autoplay="autoplay"></audio>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+var queryString = decodeURIComponent(window.location.search);
+queryString = queryString.substring(1);
+var queries = queryString.split("&");
+
+$("#score").html(queries);
+
+
+
+
+
+// for (var i = 0; i < queries.length; i++)
+// {
+//   console.log(queries[i] + "correct");
+// }
+
+// var query2String = decodeURIComponent(window.location.search);
+// query2String = query2String.substring(1);
+// var queries2 = query2String.split("&");
+
+// $("#incorrect").html(queries2);
+// for (var j = 0; j < queries2.length; j++)
+// {
+//   console.log(queries2[j] + "incorrect");
+// }
+
+</script>
+
+</body>
+</html>
